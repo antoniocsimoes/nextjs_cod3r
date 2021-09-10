@@ -36,3 +36,11 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 Criando um projeto:
 npx create-next-app <nome projeto>
+
+Next.js:
+Versão framework React, acrescenta ao React uma série de funcionalidades interessantes
+
+Estrutura de pastas:
+styles - os css (css global e modularizado)
+public - arquivos de imagens, fontes, vídeos ...
+pages - index.jsx (arquivo padrão)
