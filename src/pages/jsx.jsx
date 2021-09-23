@@ -1,4 +1,6 @@
 import { unstable_renderSubtreeIntoContainer } from "react-dom";
+import Layout from "../components/Layout";
+import Exemplo from "./exemplo";
 
 export default function Jsx() {
     const a = 4;
@@ -17,13 +19,16 @@ export default function Jsx() {
     }
     
     return (
-        <div>
-            <h1>JSX é um conceito Central</h1>
-            {titulo}
-            <h4>{"muito legal".toUpperCase()}</h4>
-            <p>
-                {JSON.stringify({obj})}
-            </p>
-        </div>
+        <Layout titulo="Entendendo o JSX">
+            <div>
+                <h1>JSX é um conceito Central</h1>
+                {titulo}
+                {subtitulo()}
+                <h4>{"muito legal".toUpperCase()}</h4>
+                <p>
+                    {JSON.stringify({obj})}
+                </p>
+            </div>
+        </Layout>
     )
 }
